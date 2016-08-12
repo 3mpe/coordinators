@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp" android:id="@+id/constraintLayout">
+  <TextView
+      android:text="TextView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" tools:layout_editor_absoluteX="167dp"
+      tools:layout_editor_absoluteY="242dp" android:id="@+id/clock_time"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large" tools:text="Hello"
+      app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+      tools:layout_constraintLeft_creator="0"
+      app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+      tools:layout_constraintTop_creator="0"
+      app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+      tools:layout_constraintRight_creator="0"
+      app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
+      tools:layout_constraintBottom_creator="0"/>
+</android.support.constraint.ConstraintLayout>

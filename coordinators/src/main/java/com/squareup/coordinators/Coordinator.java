@@ -55,7 +55,7 @@ public class Coordinator {
   /**
    * True from just before attach until just after detach.
    */
-  public final boolean isAttached() {
+  final boolean isAttached() {
     return attached;
   }
 }
